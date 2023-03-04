@@ -40,7 +40,9 @@ output "app_public-ip" {
   value = aws_instance.app.public_ip
 }
 
+/*
 output "app2_public-ip" {
   value = aws_instance.app2.public_ip
 }
+*/
 
